@@ -6,7 +6,7 @@ import java.util.concurrent.CountDownLatch;
  * Author: Adrian LIU
  * Date: 2020-06-21
  * Desc: Double-checked locking with volatile
- * This is one of the perfect version of Singleton
+ * This is one of the perfect versions for Singleton Pattern
  * The volatile keyword ensures the visibility of INSTANCE between threads.
  * It also prevents instructions reordering.
  */

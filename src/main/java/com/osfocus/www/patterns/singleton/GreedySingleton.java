@@ -1,11 +1,13 @@
 package com.osfocus.www.patterns.singleton;
 
+import java.io.Serializable;
+
 /**
  * Author: Adrian LIU
  * Date: 2020-06-21
  * Desc: singleton pattern uses Greedy initialization.
  */
-public class GreedySingleton {
+public class GreedySingleton implements Serializable {
     private static GreedySingleton INSTANCE = new GreedySingleton();
 
     public static GreedySingleton getInstance() {
