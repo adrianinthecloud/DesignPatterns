@@ -1,4 +1,4 @@
-package com.osfocus.www.patterns.adapter.third_party_adapter;
+package com.osfocus.www.patterns.adapter.thirdpartyadapter;
 
 public class AdapterTester {
     public static void main(String[] args) {
